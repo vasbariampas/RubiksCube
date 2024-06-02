@@ -60,6 +60,14 @@ namespace RubiksCube.Models
             SidesLookup[FacingDirection.Bottom].Display();
         }
 
+        /// <summary>
+        /// This method was created for testing purpose.
+        /// </summary>
+        public Side GetSide(FacingDirection facingDirection)
+        {
+            return SidesLookup[facingDirection];
+        }
+
         private void RotateFrontClockwise()
         {
             var top = SidesLookup[FacingDirection.Top];
