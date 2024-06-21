@@ -46,12 +46,12 @@ The application is divided into several classes and namespaces:
 
 2. **Commands**
    - The application will prompt you to select a command or explode the cube:
-     - `1`: Rotate the front face 90° clockwise.
-     - `2`: Rotate the right face 90° anti-clockwise.
-     - `3`: Rotate the up face 90° clockwise.
-     - `4`: Rotate the back face 90° anti-clockwise.
-     - `5`: Rotate the left face 90° clockwise.
-     - `6`: Rotate the down face 90° anti-clockwise.
+     - `1`: Rotate the front face 90Â° clockwise.
+     - `2`: Rotate the right face 90Â° anti-clockwise.
+     - `3`: Rotate the up face 90Â° clockwise.
+     - `4`: Rotate the back face 90Â° anti-clockwise.
+     - `5`: Rotate the left face 90Â° clockwise.
+     - `6`: Rotate the down face 90Â° anti-clockwise.
    - Enter the corresponding number to execute a command.
    - Enter `r` to restart the cube to its initial state.
    - Enter `e` to explode the cube, displaying all faces.
@@ -77,3 +77,5 @@ The application is divided into several classes and namespaces:
 
 5. **Enums.cs**
    - Defines the `FacingDirection` and `Command` enums, used to represent the directions of the cube faces and the commands for manipulating the cube.
+
+https://rubiks-cube-solver.com/
